@@ -15,3 +15,8 @@ export NVM_DIR="$HOME/.nvm"
 curl https://get.wasmer.io -sSfL | sh
 source /Users/CraigFay/.wasmer/wasmer.sh
 
+# Brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Github CLI
+brew install gh
